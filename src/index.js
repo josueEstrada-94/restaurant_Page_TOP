@@ -3,6 +3,7 @@ import { landingPageLoad } from './landing_page.js';
 import { menuPage } from './menu.js';
 import { contactPage } from './contact.js';
 
+
 landingPageLoad();
 
 /*Page switching module*/

@@ -1,3 +1,5 @@
+import sesteoFront from './assets/Sesteo.png'
+
 export function landingPageLoad() {
     const content = document.querySelector('#content');
 
@@ -9,7 +11,7 @@ export function landingPageLoad() {
     
 
     const headImg = document.createElement('img');
-    headImg.src = '../src/assets/Sesteo.png';
+    headImg.src = sesteoFront;
     headImg.alt = 'Image of the restaurant, the mythical corner where it is placed.'
     headImg.classList.add('head-img');
 
