@@ -9,7 +9,7 @@ export function landingPageLoad() {
     
 
     const headImg = document.createElement('img');
-    headImg.src = 'assets/Sesteo.png';
+    headImg.src = '../src/assets/Sesteo.png';
     headImg.alt = 'Image of the restaurant, the mythical corner where it is placed.'
     headImg.classList.add('head-img');
 
