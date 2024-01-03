@@ -1,3 +1,8 @@
+import cellphoneSesteo from './assets/icons/cellphone.svg';
+import emailSesteo from './assets/icons/email.svg';
+import instagramSesteo from './assets/icons/instagram.svg';
+import localSesteo from './assets/icons/map-marker.svg';
+
 export function contactPage() {
     const content = document.querySelector('#content');
 
@@ -17,7 +22,7 @@ export function contactPage() {
 
     const cellphoneImg = document.createElement('img');
     cellphoneImg.classList.add('con-img');
-    cellphoneImg.src = '../src/assets/icons/cellphone.svg';
+    cellphoneImg.src = cellphoneSesteo;
     cellphone.appendChild(cellphoneImg);
 
     const cellphoneTxt = document.createElement('span');
@@ -30,7 +35,7 @@ export function contactPage() {
     email.classList.add('con-item');
 
     const emailImg = document.createElement('img');
-    emailImg.src = '../src/assets/icons/email.svg';
+    emailImg.src = emailSesteo;
     emailImg.classList.add('con-img');
     email.appendChild(emailImg);
 
@@ -44,7 +49,7 @@ export function contactPage() {
     instagram.classList.add('con-item');
 
     const instagramImg = document.createElement('img');
-    instagramImg.src = '../src/assets/icons/instagram.svg';
+    instagramImg.src = instagramSesteo;
     instagramImg.classList.add('con-img');
     instagram.appendChild(instagramImg);
 
@@ -58,7 +63,7 @@ export function contactPage() {
     local.classList.add('con-item');
 
     const localImg = document.createElement('img');
-    localImg.src = '../src/assets/icons/map-marker.svg';
+    localImg.src = localSesteo;
     localImg.classList.add('con-img');
     local.appendChild(localImg);
 

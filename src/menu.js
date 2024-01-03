@@ -1,3 +1,8 @@
+import sandwichSesteo from './assets/sesteo-sandwich.png';
+import desmenuzadaSesteo from './assets/sesteo-desmenuzada.png';
+import plantAndCheeseSesteo from './assets/sesteo-tajadas-queso.png';
+
+
 export function menuPage() {
     const content = document.querySelector('#content');
 
@@ -17,7 +22,7 @@ export function menuPage() {
 
     const sandwichImg = document.createElement('img');
     sandwichImg.classList.add('list-img');
-    sandwichImg.src = '../src/assets/Sesteo-sandwich.png';
+    sandwichImg.src = sandwichSesteo;
     sandwich.appendChild(sandwichImg);
 
     const sandwichTxt = document.createElement('span');
@@ -30,7 +35,7 @@ export function menuPage() {
     desmenuzada.classList.add('list-item');
 
     const desmenuzadaImg = document.createElement('img');
-    desmenuzadaImg.src = '../src/assets/Sesteo-desmenuzada.png';
+    desmenuzadaImg.src = desmenuzadaSesteo;
     desmenuzadaImg.classList.add('list-img');
     desmenuzada.appendChild(desmenuzadaImg);
 
@@ -44,7 +49,7 @@ export function menuPage() {
     plantAndCheese.classList.add('list-item');
 
     const plantAndCheeseImg = document.createElement('img');
-    plantAndCheeseImg.src = '../src/assets/Sesteo-tajadas-queso.png';
+    plantAndCheeseImg.src = plantAndCheeseSesteo;
     plantAndCheeseImg.classList.add('list-img');
     plantAndCheese.appendChild(plantAndCheeseImg);
 

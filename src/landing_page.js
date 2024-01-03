@@ -1,4 +1,4 @@
-import sesteoFront from './assets/Sesteo.png'
+import sesteoFront from './assets/sesteo.png'
 
 export function landingPageLoad() {
     const content = document.querySelector('#content');
