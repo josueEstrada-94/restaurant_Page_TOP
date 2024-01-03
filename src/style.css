@@ -31,7 +31,7 @@
 
 body{
     margin: 0;
-    background-image: url('../src/assets/cathedral_Background.png');
+    background-image: url('assets/cathedral_Background.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
