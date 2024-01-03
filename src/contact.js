@@ -17,7 +17,7 @@ export function contactPage() {
 
     const cellphoneImg = document.createElement('img');
     cellphoneImg.classList.add('con-img');
-    cellphoneImg.src = '../src/assets/icons/cellphone.svg';
+    cellphoneImg.src = 'assets/icons/cellphone.svg';
     cellphone.appendChild(cellphoneImg);
 
     const cellphoneTxt = document.createElement('span');
@@ -30,7 +30,7 @@ export function contactPage() {
     email.classList.add('con-item');
 
     const emailImg = document.createElement('img');
-    emailImg.src = '../src/assets/icons/email.svg';
+    emailImg.src = 'assets/icons/email.svg';
     emailImg.classList.add('con-img');
     email.appendChild(emailImg);
 
@@ -44,7 +44,7 @@ export function contactPage() {
     instagram.classList.add('con-item');
 
     const instagramImg = document.createElement('img');
-    instagramImg.src = '../src/assets/icons/instagram.svg';
+    instagramImg.src = 'assets/icons/instagram.svg';
     instagramImg.classList.add('con-img');
     instagram.appendChild(instagramImg);
 
@@ -58,7 +58,7 @@ export function contactPage() {
     local.classList.add('con-item');
 
     const localImg = document.createElement('img');
-    localImg.src = '../src/assets/icons/map-marker.svg';
+    localImg.src = 'assets/icons/map-marker.svg';
     localImg.classList.add('con-img');
     local.appendChild(localImg);
 

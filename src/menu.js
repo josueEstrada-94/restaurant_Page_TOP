@@ -17,7 +17,7 @@ export function menuPage() {
 
     const sandwichImg = document.createElement('img');
     sandwichImg.classList.add('list-img');
-    sandwichImg.src = '../src/assets/Sesteo-sandwich.png';
+    sandwichImg.src = 'assets/Sesteo-sandwich.png';
     sandwich.appendChild(sandwichImg);
 
     const sandwichTxt = document.createElement('span');
@@ -30,7 +30,7 @@ export function menuPage() {
     desmenuzada.classList.add('list-item');
 
     const desmenuzadaImg = document.createElement('img');
-    desmenuzadaImg.src = '../src/assets/Sesteo-desmenuzada.png';
+    desmenuzadaImg.src = 'assets/Sesteo-desmenuzada.png';
     desmenuzadaImg.classList.add('list-img');
     desmenuzada.appendChild(desmenuzadaImg);
 
@@ -44,7 +44,7 @@ export function menuPage() {
     plantAndCheese.classList.add('list-item');
 
     const plantAndCheeseImg = document.createElement('img');
-    plantAndCheeseImg.src = '../src/assets/Sesteo-tajadas-queso.png';
+    plantAndCheeseImg.src = 'assets/Sesteo-tajadas-queso.png';
     plantAndCheeseImg.classList.add('list-img');
     plantAndCheese.appendChild(plantAndCheeseImg);
 
